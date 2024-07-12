@@ -8,9 +8,12 @@ public class MessagingApiAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
+		System.out.println("Welcome to Message API 1");
+		printGreetings();
+		
 	}
-	public void printGreetings() {
-		System.out.println("Hi Oracle");
+	public static void printGreetings() {
+		System.out.println("Hi Oracle ");
 	}
 
 }
